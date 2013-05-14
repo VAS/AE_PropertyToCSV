@@ -22,7 +22,7 @@ The file name is in the format: ```LayerName_PropertyName.csv```
 4. The Info panel will show the path of the selected folder, one per property.
 5. You're done!
 
-##Caveat:
+###Heads up!
 - If a file with the same name already exists in the destination folder, the script will overwrite it.
 
 ##Todo:
