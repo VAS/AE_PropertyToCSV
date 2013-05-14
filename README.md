@@ -7,7 +7,16 @@ Export any AfterEffects Layer animated property to a CSV file.
 It writes a .csv file to disk for each property selected in the editor baking the **property value** for each frame of the composition.
 
 ###Export format
-The generated .csv file is in the format: ```frame,value1,value2,...,valueN```.
+The generated .csv file is in the format: 
+```
+frame0,value1,value2,...,valueN
+frame1,value1,value2,...,valueN
+...
+...
+frameX,value1,value2,...,valueN
+
+```
+
 The file name is in the format: ```layer.name_property.name.csv```
 
 ##Usage:
