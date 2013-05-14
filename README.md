@@ -3,7 +3,6 @@ AE_PropertyToCSV
 
 The script generates a .csv file per-selected-property of a single layer, containing the respective values at each frame of the composition.
 
-###Export format
 The generated .csv file is in the format: 
 ```
 frame0,value1,value2,...,valueN
@@ -18,13 +17,13 @@ The file name is in the format: ```LayerName_PropertyName.csv```
 
 ##Usage:
 1. Just select the properties that you want to bake in the timeline. You can select how many properties you wish, but you shall not select more than one layer.
-2. From the File->Script menu select the script file.
-3. Choose the folder where you want to save the baked data from the dialog
-4. The Info panel will show the path of the selected folder, one per property
+2. From the File->Script menu select the script file (.jsx).
+3. Choose the folder where you want to save the .csv files from the dialog
+4. The Info panel will show the path of the selected folder, one per property.
 5. You're done!
 
 ##Caveat:
-- If a file with the same name already exists in the dest. folder, the script will overwrite it without asking.
+- If a file with the same name already exists in the destination folder, the script will overwrite it.
 
 ##Todo:
 - Let the user specify the separation character (e.g. TAB)
