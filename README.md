@@ -1,10 +1,7 @@
 AE_PropertyToCSV
 ================
 
-Export any AfterEffects Layer animated property to a CSV file.
-
-##What the script does:
-It writes a .csv file to disk for each property selected in the editor baking the **property value** for each frame of the composition.
+The script generates a .csv file per-selected-property of a single layer, containing the respective values at each frame of the composition.
 
 ###Export format
 The generated .csv file is in the format: 
@@ -12,10 +9,12 @@ The generated .csv file is in the format:
 frame0,value1,value2,...,valueN
 frame1,value1,value2,...,valueN
 ...
+...
 frameX,value1,value2,...,valueN
+
 ```
 
-The file name is in the format: ```layer.name_property.name.csv```
+The file name is in the format: ```LayerName_PropertyName.csv```
 
 ##Usage:
 1. Just select the properties that you want to bake in the timeline. You can select how many properties you wish, but you shall not select more than one layer.
