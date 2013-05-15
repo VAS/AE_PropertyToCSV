@@ -8,9 +8,7 @@ The generated .csv file is in the format:
 frame0,value1,value2,...,valueN
 frame1,value1,value2,...,valueN
 ...
-...
 frameX,value1,value2,...,valueN
-
 ```
 
 The file name is in the format: ```LayerName_PropertyName.csv```
